@@ -51,9 +51,9 @@ The core logic utilizes the following command to filter random data:
 ```bash
 tr -dc "$charset" < /dev/urandom | head -c $length
 ```
-/dev/urandom: A special file in Unix-like systems that serves as a non-blocking pseudorandom number generator.
+`/dev/urandom`: A special file in Unix-like systems that serves as a non-blocking pseudorandom number generator.
 
-tr -dc: Deletes characters not in the specified set (filtering).
+`tr -dc`: Deletes characters not in the specified set (filtering).
 
 👤 Author
 Mosaad Nabil Abokammer
